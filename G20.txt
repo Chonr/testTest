@@ -56,8 +56,10 @@
 	-ourActivity.html
 
 	-script.js
+		
 
 	-style.css
+		design แสดงผล หลังกด submit
 
 -บทบาทหน้าที่ในทีม
 	developer 
