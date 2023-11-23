@@ -1,0 +1,78 @@
+1 ส่วนประกอบและการทำงานของ web ของนักศึกษา
+
+-ส่วนประกอบ
+	home page : index.html
+		-style.css
+		-image
+		-
+
+	Our activities : ourActivity.html
+		-script.js
+		-styles.css
+	
+-การทำงาน
+	home page 
+
+	Our activities
+
+
+
+2 สิ่งที่นักศึกษาปรับปรุงในหน้า Our activities
+
+-ปรับปรุงฟอร์มในการรับข้อมูลของพี่ TA 
+
+-เพื่อทำเพิ่มการทำงานส่วนของ script
+	 handle event ในฟอร์ม
+	เพิ่มการ validate ข้อมูลด้วย JavaScript ในรูปแบบอื่น
+	ปรับปรุงการจัดการ และแสดงผล errors
+
+
+
+3 สิ่งที่นักศึกษาเรียนรู้ หรือความท้าทายในการทำงานเป็นทีมกับเพื่อนในวิชานี้ เช่น การแบ่งงาน, บทบาทหน้าที่ในทีม (developer, tester, designer), วิธีการทำงานร่วมกัน
+
+-สิ่งที่นักศึกษาเรียนรู้
+	เรียนรู้การทำงานเป็นทีม ทำงานร่วมกัน
+	เรียนรู้การทำงานร่วมกับเพื่อนผ่าน git repository
+	ได้ปรับแต่ง web page ที่ดีขึ้น จากการได้ทำ MyCSTUPassport
+	ได้ทบทวนสิ่งที่เรียนรู้มา เช่น git 
+	ได้เรียนรู้ส่วนประกอบของฟอร์ม ที่เอา Javascript มาใช้ด้วย
+
+-ความท้าทาย
+	ไม่เคยเขียนหรือมีประสบการณ์กับ Javascript
+	พบปัญหาจากการทำงานกับเพื่อนผ่าน git repository เช่น push ไม่ได้
+	พบปัญหาในการทำฟอร์ม
+
+-การแบ่งงาน
+	-index.html
+		ลงข้อมูล, รูปภาพ : GUS
+		ตรวจสอบความถูกต้อง : NAM
+		จัด web page ให้อยู่ในรูปแบบ responsive web : NAM
+		link : GUS
+		
+	-style.css
+		design web page + color : NAM
+		font size : GUS
+
+	-ourActivity.html
+
+	-script.js
+
+	-style.css
+
+-บทบาทหน้าที่ในทีม
+	developer 
+	tester
+	designer
+
+
+
+
+
+
+
+
+
+
+
+
+
