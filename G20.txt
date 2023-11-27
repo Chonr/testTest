@@ -67,12 +67,18 @@
 		font size : GUS
 
 	-ourActivity.html
+		เพิ่มการรับข้อมูล : คณะ สาขา เมลส่วนตัว รูป
+		link เชื่อม index.html กัส
 
 	-script.js
+		validate :
+		error :
+		แสดงผลอยู่ล่าง form
 		
 
 	-style.css
-		design แสดงผล หลังกด submit
+		design แสดงผล หลังกด submit กัส
+		ลงสีพื้นหลัง form กัส
 
 -บทบาทหน้าที่ในทีม
 	developer 
