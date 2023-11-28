@@ -34,10 +34,11 @@
 	-validate :
 		ชื่อ-สกุล : ให้ขึ้นต้นด้วยพิมพ์ใหญ่ + 2 ก้อนเหมือนเดิม
 		รหัสนศ : 6609 บังคับขึ้นต้นตัวที่1 เป็น 6 + ตัวที่3-4 เป็นคณะ 0-26
+		image :
 	-error :
 		ชื่อ-สกุล :
 		รหัสนศ :
-
+		image :
 
 -เพื่อทำเพิ่มการทำงานส่วนของ script
 	 handle event ในฟอร์ม
@@ -79,14 +80,16 @@
 		link เชื่อม index.html กัส
 
 	-script.js
-		validate :
-		error :
+		handle event ในฟอร์ม
+		เพิ่มการ validate ข้อมูลด้วย JavaScript ในรูปแบบอื่น 
+		ปรับปรุงการจัดการ และแสดงผล errors
 		แสดงผลอยู่ล่าง form
 		
 
-	-style.css
-		design แสดงผล หลังกด submit กัส
-		ลงสีพื้นหลัง form กัส
+	-styles.css
+		design แสดงผล หลังกด submit
+		ลงสีพื้นหลัง form
+		ลงสีแสดงผลด้านล่าง form
 
 -บทบาทหน้าที่ในทีม
 	developer 
