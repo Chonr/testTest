@@ -19,13 +19,31 @@
 	Our activities : ourActivity.html
 		-script.js
 		-styles.css
-	
+
+-ส่วนประกอบของ web
+	client : web browser
+	server : web server : web pages(html), JS, CSS, image, VDO, server-side script
+	internet
+
 -การทำงาน
-	home page 
+	home page : Static Web (one-way communication) | Web pages
 
-	Our activities
+	client : web browser
+		ส่ง http request ไปให้ web server
+		ระบุในส่วนของ URL ที่อยู่ของ resource ที่ต้องการ
+	server : web server
+		รับ http request แล้วจึงส่ง http response ตอบกลับไปให้ web browser
+	internet : web client , web web server เชื่อมต่อกันผ่าน internet
 
+	Our activities Dynammic Web | Web+interaction (two-way communication) |  HTML Form
 
+	client : web browser
+		ส่ง http request ไปให้ web server
+	server : web server
+		รับ http request แล้วจึงส่ง http response ตอบกลับไปให้ web browser
+	client : web browser
+		ส่ง feedback กลับไปให้ web server
+	
 
 2 สิ่งที่นักศึกษาปรับปรุงในหน้า Our activities
 
