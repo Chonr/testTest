@@ -1,0 +1,54 @@
+<form id="myForm">
+    <!-- ตัวแปรฟอร์ม -->
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+  
+    <label for="studentID">Student ID:</label>
+    <input type="text" id="studentID" name="studentID" required>
+  
+    <!-- ... (อื่นๆ ตามต้องการ) ... -->
+  
+    <!-- ปุ่ม Submit -->
+    <button type="submit">Submit</button>
+  </form>
+  
+  <!-- Element สำหรับแสดงผล -->
+  <div id="resultContainer"></div>
+  
+  <!-- สคริปต์ JavaScript -->
+  <script>
+    // Event listener เมื่อเนื้อหาของหน้าเว็บโหลดเสร็จ
+    document.addEventListener("DOMContentLoaded", () => {
+      // เพิ่ม event listener สำหรับ form submission
+      document.getElementById("myForm").addEventListener("submit", submitForm);
+    });
+  
+    // ฟังก์ชันสำหรับการ submit ฟอร์ม
+    async function submitForm(event) {
+      event.preventDefault();
+  
+      // รับข้อมูลจากฟอร์ม
+      const formData = new FormData(event.target);
+  
+      // ดึงข้อมูลที่ต้องการ
+      const fullName = formData.get("fullname");
+      const studentID = formData.get("studentID");
+      // ... (ดึงข้อมูลอื่นๆ ตามต้องการ) ...
+  
+      // แสดงผลข้อมูลที่ Element ที่มีอยู่ในหน้าเว็บ
+      const resultContainer = document.getElementById("resultContainer");
+      resultContainer.innerHTML = `
+        <p>Full Name: ${fullName}</p>
+        <p>Student ID: ${studentID}</p>
+        <!-- ... (แสดงข้อมูลอื่นๆ ตามต้องการ) ... -->
+      `;
+  
+      // เพิ่ม Element สำหรับแสดงผล
+      const additionalResult = document.createElement("div");
+      additionalResult.innerHTML = `
+        <p>Additional Information:</p>
+        <!-- ... (แสดงข้อมูลอื่นๆ ตามต้องการ) ... -->
+      `;
+      resultContainer.appendChild(additionalResult);
+    }
+  </script>
