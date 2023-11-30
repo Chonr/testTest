@@ -1,0 +1,138 @@
+
+หน้าปก
+หน้า 2 : ส่วนประกอบ
+หน้า 3 : การทำงาน
+หน้า 4 : สิ่งที่นักศึกษาปรับปรุงในหน้า Our activities
+หน้า 5 : สิ่งที่เรียนรู้ ความท้าทาย
+หน้า 6 : การแบ่งงาน บทบาทหน้าที่
+
+
+
+1 ส่วนประกอบและการทำงานของ web ของนักศึกษา
+
+-ส่วนประกอบ
+	home page : index.html
+		-style.css
+		-image
+		-
+
+	Our activities : ourActivity.html
+		-script.js
+		-styles.css
+
+-ส่วนประกอบของ web
+	client : web browser
+	server : web server : web pages(html), JS, CSS, image, VDO, server-side script
+	internet
+
+-การทำงาน
+	home page : Static Web (one-way communication) | Web pages
+
+	client : web browser
+		ส่ง http request ไปให้ web server
+		ระบุในส่วนของ URL ที่อยู่ของ resource ที่ต้องการ
+	server : web server
+		รับ http request แล้วจึงส่ง http response ตอบกลับไปให้ web browser
+	internet : web client , web web server เชื่อมต่อกันผ่าน internet
+
+	Our activities Dynammic Web | Web+interaction (two-way communication) |  HTML Form
+
+	client : web browser
+		ส่ง http request ไปให้ web server
+	server : web server
+		รับ http request แล้วจึงส่ง http response ตอบกลับไปให้ web browser
+	client : web browser
+		ส่ง feedback กลับไปให้ web server
+	
+
+2 สิ่งที่นักศึกษาปรับปรุงในหน้า Our activities
+
+-ปรับปรุงฟอร์มในการรับข้อมูลของพี่ TA 
+	-เพิ่ม Form Elements
+		Drop Down List Box : คณะ 
+		Text Input : สาขา
+		File Input Box : รูปภาพ
+	-handle event :
+
+	-validate :
+		เพิ่มการ validate ว่าข้อมูลที่ผู้ใช้ป้อนมีรูปแบบที่ถูกต้องตามที่กำหนดหรือไม่
+		เพิ่ม pattern การกรอก Firstname and Lastname : ให้ขึ้นต้นด้วยพิมพ์ใหญ่ + 2 ก้อนเหมือนเดิม
+		ปรับปรุง pattern การกรอก Student ID : 6609 ตัวที่ 1 บังคับขึ้นต้นเป็น 6 + ตัวที่ 3-4 เป็นคณะ 01-26 เลยบังคับตัวที่ 3 เป็น 0-2
+		เพิ่ม validate ว่าไฟล์ที่เลือกต้องเป็นรูปภาพเท่านั้น (jpg , jpeg หรือ png) 
+	-error :
+		ปรับปรุงการจัดการ เพิ่มการแสดงผล errors ใน element HTML
+		เพิ่มการแสดงผล errors ในการกรอก Firstname and Lastname : ให้ขึ้นเตือนสีแดงเมื่อไม่กรอกชื่อ-สกุล ขึ้นต้นด้วยพิมพ์ใหญ่ + 2 ก้อนเหมือนเดิม
+		การแสดงผล errors ในการกรอก Student ID : ให้ขึ้นเตือนเหมือนเดิมว่าให้กรอกรหัสนักศึกษา 10หลัก
+
+-เพื่อทำเพิ่มการทำงานส่วนของ script
+	 handle event ในฟอร์ม
+	เพิ่มการ validate ข้อมูลด้วย JavaScript ในรูปแบบอื่น
+	ปรับปรุงการจัดการ และแสดงผล errors
+
+-กิจกรรมที่รับมาจาก Form แล้วเมื่อกด submit หน้าเพจจะนำข้อมูลดังกล่าวมาแสดงผลข้อมูลที่รับมาด้านล่างของฟอร์ม
+	-ทำให้แสดงผลด้านล่าง
+	-ตกแต่ง
+
+
+3 สิ่งที่นักศึกษาเรียนรู้ หรือความท้าทายในการทำงานเป็นทีมกับเพื่อนในวิชานี้ เช่น การแบ่งงาน, บทบาทหน้าที่ในทีม (developer, tester, designer), วิธีการทำงานร่วมกัน
+
+-สิ่งที่นักศึกษาเรียนรู้
+	เรียนรู้การทำงานเป็นทีม การทำงานร่วมกัน
+	เรียนรู้การทำงานร่วมกับเพื่อนผ่าน git repository
+	ได้ปรับแต่ง web page ที่ดีขึ้น จากการได้ทำ MyCSTUPassport
+	ได้ทบทวนสิ่งที่เรียนรู้มา เช่น git , CSS , responsive web
+	ได้เรียนรู้ส่วนประกอบของฟอร์ม ที่เอา Javascript มาใช้ด้วย
+	ได้เรียนรู้การ run backend
+	ได้เรียนรู้การใช้งานและการ deploy web ใน AWS
+
+-ความท้าทาย
+	ไม่เคยเขียนหรือมีประสบการณ์กับ Javascript
+	พบปัญหาจากการทำงานกับเพื่อนผ่าน git repository เช่น push ไม่ได้
+	พบปัญหาในส่วนของ script.js เช่น ให้การแสดงผลข้อมูลที่รับมาอยู่ด้านล่างของฟอร์ม , ให้รูปภาพไปแสดงผลด้วย
+	พบปัญหา deploy web ใน AWS ไม่ได้
+
+-การแบ่งงาน
+	-index.html
+		ลงข้อมูล, รูปภาพ : GUS
+		ตรวจสอบความถูกต้อง : NAM
+		จัด web page ให้อยู่ในรูปแบบ responsive web : NAM
+		link : GUS
+		
+	-style.css
+		design web page + color : NAM
+		font size : GUS
+
+	-ourActivity.html
+		เพิ่มการรับข้อมูล : คณะ สาขา เมลส่วนตัว รูป
+		link เชื่อม index.html กัส
+
+	-script.js
+		handle event ในฟอร์ม
+		เพิ่มการ validate ข้อมูลด้วย JavaScript ในรูปแบบอื่น 
+		ปรับปรุงการจัดการ และแสดงผล errors
+		แสดงผลอยู่ล่าง form
+		
+
+	-styles.css
+		design แสดงผล หลังกด submit
+		ลงสีพื้นหลัง form
+		ลงสีแสดงผลด้านล่าง form
+
+-บทบาทหน้าที่ในทีม
+	developer 
+	tester
+	designer
+
+Description
+-First Meet CSTU ตั้งแต่เวลา  ก็มีกิจกรรมมากมาย ตอนเช้าให้เล่นเกม และแบ่งกลุ่ม ทำความรู้จักเพื่อนๆ และตอนเที่ยงก็แจกของว่าง ส่วนตอนบ่ายก็เล่นเกม ทำกิจกรรมต่างๆ ปล่อยลูกแก้วลงมาให้ใช้เวลานานที่สุด, ฉีกกระดาษให้ยาวที่สุด, 
+
+
+
+
+
+
+
+
+
+
+
